@@ -1,2 +1,2 @@
 # holamundo
-# Soy Carlos
+# Somos Carlos y Alex
