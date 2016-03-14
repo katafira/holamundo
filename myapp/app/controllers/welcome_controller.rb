@@ -1,4 +1,4 @@
 class WelcomeController < ApplicationController
-  def index
+  def form
   end
 end
