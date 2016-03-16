@@ -1,0 +1,15 @@
+<h2>Crear un usuario nuevo</h2>
+<p>
+<%= form_for(@nuevo_usuario) do |nu|%>
+<% @nuevo_usuario.errors.full_messages.each do |message| %>
+<%= message %>
+<%end%>
+<div>Nombre de usuario:
+	<%= nu.text_field :nombre%>
+</div>
+<div>Password:<%= nu.password_field :password%></div>
+<div>
+	<%=nu.submit "Guardar"  %>
+</div>
+<%end%>
+</p>
